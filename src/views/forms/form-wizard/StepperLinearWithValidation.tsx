@@ -192,7 +192,7 @@ const StepperLinearWithValidation = () => {
                 </Typography>
                 <Typography variant='body2'>{steps[0].subtitle}</Typography>
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='username'
                   control={accountControl}
@@ -208,7 +208,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='email'
                   control={accountControl}
@@ -225,7 +225,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='password'
                   control={accountControl}
@@ -260,7 +260,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='confirmPassword'
                   control={accountControl}
@@ -328,7 +328,7 @@ const StepperLinearWithValidation = () => {
                 </Typography>
                 <Typography variant='body2'>{steps[1].subtitle}</Typography>
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='firstName'
                   control={personalControl}
@@ -347,7 +347,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='lastName'
                   control={personalControl}
@@ -366,7 +366,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <FormControl fullWidth>
                   <InputLabel error={Boolean(personalErrors.country)}>Country</InputLabel>
                   <Controller
@@ -385,7 +385,7 @@ const StepperLinearWithValidation = () => {
                   {personalErrors.country && <FormHelperText error>country is a required field</FormHelperText>}
                 </FormControl>
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <FormControl fullWidth>
                   <InputLabel error={Boolean(personalErrors.language)}>Language</InputLabel>
                   <Controller
@@ -441,7 +441,7 @@ const StepperLinearWithValidation = () => {
                 </Typography>
                 <Typography variant='body2'>{steps[2].subtitle}</Typography>
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='twitter'
                   control={socialControl}
@@ -458,7 +458,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='facebook'
                   control={socialControl}
@@ -475,7 +475,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='google'
                   control={socialControl}
@@ -491,7 +491,7 @@ const StepperLinearWithValidation = () => {
                   )}
                 />
               </Grid>
-              <Grid size={{ xs: 12, sm: 6 }}>
+              <Grid item xs={12} sm={6}>
                 <Controller
                   name='linkedIn'
                   control={socialControl}

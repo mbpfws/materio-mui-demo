@@ -89,7 +89,7 @@ const FormLayoutsSeparator = () => {
                 1. Account Details
               </Typography>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='UserName'
@@ -98,7 +98,7 @@ const FormLayoutsSeparator = () => {
                 onChange={e => setFormData({ ...formData, username: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 type='email'
@@ -108,7 +108,7 @@ const FormLayoutsSeparator = () => {
                 onChange={e => setFormData({ ...formData, email: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Password'
@@ -136,7 +136,7 @@ const FormLayoutsSeparator = () => {
                 }}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Confirm Password'
@@ -172,7 +172,7 @@ const FormLayoutsSeparator = () => {
                 2. Personal Info
               </Typography>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='First Name'
@@ -181,7 +181,7 @@ const FormLayoutsSeparator = () => {
                 onChange={e => setFormData({ ...formData, firstName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Last Name'
@@ -190,7 +190,7 @@ const FormLayoutsSeparator = () => {
                 onChange={e => setFormData({ ...formData, lastName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel>Country</InputLabel>
                 <Select
@@ -205,7 +205,7 @@ const FormLayoutsSeparator = () => {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel>Language</InputLabel>
                 <Select
@@ -224,7 +224,7 @@ const FormLayoutsSeparator = () => {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <AppReactDatepicker
                 selected={formData.date}
                 showYearDropdown
@@ -234,7 +234,7 @@ const FormLayoutsSeparator = () => {
                 customInput={<TextField fullWidth label='Birth Date' placeholder='MM-DD-YYYY' />}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Phone Number'

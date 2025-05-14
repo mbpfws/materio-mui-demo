@@ -98,7 +98,7 @@ const ReviewsStatistics = () => {
     <Card>
       <CardContent>
         <Grid container spacing={6}>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <div className='bs-full flex flex-col items-start justify-between gap-6'>
               <div className='flex flex-col items-start gap-2'>
                 <Typography variant='h5'>Reviews statistics</Typography>

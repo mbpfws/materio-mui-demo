@@ -126,7 +126,7 @@ const StepperAlternativeLabel = () => {
       case 0:
         return (
           <>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Username'
@@ -135,7 +135,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, username: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 type='email'
@@ -145,7 +145,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, email: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Password'
@@ -173,7 +173,7 @@ const StepperAlternativeLabel = () => {
                 }}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Confirm Password'
@@ -206,7 +206,7 @@ const StepperAlternativeLabel = () => {
       case 1:
         return (
           <>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='First Name'
@@ -215,7 +215,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, firstName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Last Name'
@@ -224,7 +224,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, lastName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel>Country</InputLabel>
                 <Select
@@ -239,7 +239,7 @@ const StepperAlternativeLabel = () => {
                 </Select>
               </FormControl>
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel>Language</InputLabel>
                 <Select
@@ -263,7 +263,7 @@ const StepperAlternativeLabel = () => {
       case 2:
         return (
           <>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Facebook'
@@ -272,7 +272,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, facebook: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Twitter'
@@ -281,7 +281,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, twitter: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Instagram'
@@ -290,7 +290,7 @@ const StepperAlternativeLabel = () => {
                 onChange={e => setFormData({ ...formData, instagram: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Github'

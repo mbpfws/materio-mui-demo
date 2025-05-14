@@ -76,7 +76,7 @@ const FormValidationBasic = () => {
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid container spacing={5}>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <Controller
                 name='firstName'
                 control={control}
@@ -92,7 +92,7 @@ const FormValidationBasic = () => {
                 )}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <Controller
                 name='lastName'
                 control={control}
@@ -108,7 +108,7 @@ const FormValidationBasic = () => {
                 )}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <Controller
                 name='email'
                 control={control}
@@ -125,7 +125,7 @@ const FormValidationBasic = () => {
                 )}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <Controller
                 name='password'
                 control={control}
@@ -160,7 +160,7 @@ const FormValidationBasic = () => {
                 )}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <Controller
                 name='dob'
                 control={control}
@@ -185,7 +185,7 @@ const FormValidationBasic = () => {
                 )}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel error={Boolean(errors.select)}>Country</InputLabel>
                 <Controller

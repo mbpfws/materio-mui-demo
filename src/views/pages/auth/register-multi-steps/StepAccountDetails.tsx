@@ -37,13 +37,13 @@ const StepAccountDetails = ({ handleNext, activeStep }: StepAccountDetailsProps)
         <Typography>Enter Your Account Details</Typography>
       </div>
       <Grid container spacing={5}>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth label='Username' placeholder='johnDoe' />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth type='email' label='Email' placeholder='johndoe@gmail.com' />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField
             fullWidth
             label='Password'
@@ -69,7 +69,7 @@ const StepAccountDetails = ({ handleNext, activeStep }: StepAccountDetailsProps)
             }}
           />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField
             fullWidth
             label='Confirm Password'

@@ -32,7 +32,7 @@ const ChangePassword = () => {
           <Grid container spacing={4}>
             <Grid size={{ xs: 12 }}>
               <Grid container spacing={5}>
-                <Grid size={{ xs: 12, sm: 6 }}>
+                <Grid item xs={12} sm={6}>
                   <TextField
                     fullWidth
                     label='Password'
@@ -55,7 +55,7 @@ const ChangePassword = () => {
                     }}
                   />
                 </Grid>
-                <Grid size={{ xs: 12, sm: 6 }}>
+                <Grid item xs={12} sm={6}>
                   <TextField
                     fullWidth
                     label='Confirm Password'

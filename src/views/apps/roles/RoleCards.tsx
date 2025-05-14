@@ -100,7 +100,7 @@ const RoleCards = () => {
             </Card>
           </Grid>
         ))}
-        <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+        <Grid item xs={12} sm={6} lg={4}>
           <OpenDialogOnElementClick element={Card} elementProps={CardProps} dialog={RoleDialog} />
         </Grid>
       </Grid>

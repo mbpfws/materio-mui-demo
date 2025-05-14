@@ -74,13 +74,13 @@ const StepDealDetails = ({ activeStep, handleNext, handlePrev, steps }: Props) =
 
   return (
     <Grid container spacing={5} className='pbs-5'>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <TextField fullWidth label='Deal Title' placeholder='Black Friday sale, 25% off' />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <TextField fullWidth label='Deal Code' placeholder='25PEROFF' />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <TextField
           fullWidth
           multiline
@@ -89,7 +89,7 @@ const StepDealDetails = ({ activeStep, handleNext, handlePrev, steps }: Props) =
           placeholder='To sell or distribute something as a business deal'
         />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <Grid container spacing={5}>
           <Grid size={{ xs: 12 }}>
             <FormControl fullWidth>
@@ -131,7 +131,7 @@ const StepDealDetails = ({ activeStep, handleNext, handlePrev, steps }: Props) =
           </Grid>
         </Grid>
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <AppReactDatepicker
           selectsRange
           endDate={endDate as Date}
@@ -145,7 +145,7 @@ const StepDealDetails = ({ activeStep, handleNext, handlePrev, steps }: Props) =
           }
         />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <FormControl>
           <FormLabel className='text-[.8125rem] leading-5'>Notify Users</FormLabel>
           <FormGroup aria-label='position' row>

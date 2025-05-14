@@ -36,10 +36,10 @@ const Basic = () => {
       <Grid size={{ xs: 12, sm: 6, md: 4 }}>
         <CardWithCollapse />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <CardMobile />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <CardHorizontalRatings />
       </Grid>
       <Grid size={{ xs: 12, sm: 6, md: 4 }}>

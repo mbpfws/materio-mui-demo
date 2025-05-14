@@ -153,13 +153,13 @@ const Payment = ({ data }: { data: PricingPlanType[] }) => {
                   Billing Details
                 </Typography>
                 <Grid container spacing={5}>
-                  <Grid size={{ xs: 12, sm: 6 }}>
+                  <Grid item xs={12} sm={6}>
                     <TextField fullWidth label='Email Address' defaultValue='admin@master.com' type='email' />
                   </Grid>
-                  <Grid size={{ xs: 12, sm: 6 }}>
+                  <Grid item xs={12} sm={6}>
                     <TextField fullWidth type='password' id='password-input' label='Password' defaultValue='admin' />
                   </Grid>
-                  <Grid size={{ xs: 12, sm: 6 }}>
+                  <Grid item xs={12} sm={6}>
                     <FormControl fullWidth>
                       <InputLabel id='country-select-label'>Billing Country</InputLabel>
                       <Select
@@ -177,7 +177,7 @@ const Payment = ({ data }: { data: PricingPlanType[] }) => {
                       </Select>
                     </FormControl>
                   </Grid>
-                  <Grid size={{ xs: 12, sm: 6 }}>
+                  <Grid item xs={12} sm={6}>
                     <TextField
                       label='Billing Zip / Postal Code'
                       id='postal-code-input'
@@ -203,7 +203,7 @@ const Payment = ({ data }: { data: PricingPlanType[] }) => {
                         type='number'
                       />
                     </Grid>
-                    <Grid size={{ xs: 12, sm: 6 }}>
+                    <Grid item xs={12} sm={6}>
                       <TextField fullWidth id='card-holder-name' placeholder='John Doe' label='Card Holder' />
                     </Grid>
                     <Grid size={{ xs: 12, sm: 3 }}>

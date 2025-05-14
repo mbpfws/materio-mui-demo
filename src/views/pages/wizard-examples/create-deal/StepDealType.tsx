@@ -104,7 +104,7 @@ const StepDealType = ({ activeStep, handleNext, handlePrev, steps }: Props) => {
           />
         )
       })}
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <TextField
           fullWidth
           type='number'
@@ -113,7 +113,7 @@ const StepDealType = ({ activeStep, handleNext, handlePrev, steps }: Props) => {
           helperText='Enter the discount percentage. 10 = 10%'
         />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6 }}>
+      <Grid item xs={12} sm={6}>
         <FormControl fullWidth>
           <InputLabel id='select-region'>Region</InputLabel>
           <Select

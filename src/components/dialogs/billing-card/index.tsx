@@ -87,7 +87,7 @@ const BillingCard = ({ open, setOpen, data }: BillingCardProps) => {
                 onChange={e => setCardData({ ...cardData, cardNumber: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 name='name'

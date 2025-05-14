@@ -95,7 +95,7 @@ const StepPayment = ({ handleNext }: { handleNext: () => void }) => {
                     <Grid size={{ xs: 12 }}>
                       <TextField fullWidth type='number' label='Card Number' placeholder='0000 0000 0000 0000' />
                     </Grid>
-                    <Grid size={{ xs: 12, sm: 6 }}>
+                    <Grid item xs={12} sm={6}>
                       <TextField fullWidth label='Name' placeholder='John Doe' />
                     </Grid>
                     <Grid size={{ xs: 12, sm: 3 }}>

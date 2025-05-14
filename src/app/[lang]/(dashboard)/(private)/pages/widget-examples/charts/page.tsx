@@ -25,25 +25,25 @@ const Charts = () => {
       <Grid size={{ xs: 12, lg: 8 }}>
         <ProfitStackedBar />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <TotalVisitors />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <WeeklySales />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <TotalRevenue />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <WeeklyOverview />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <Performance />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <Analytics />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <SalesState />
       </Grid>
       <Grid size={{ xs: 12, sm: 6, lg: 3 }}>

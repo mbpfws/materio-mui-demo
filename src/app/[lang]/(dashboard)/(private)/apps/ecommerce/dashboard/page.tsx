@@ -45,7 +45,7 @@ const DashboardECommerce = async () => {
       </Grid>
       <Grid size={{ xs: 12, md: 4 }}>
         <Grid container spacing={6}>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               title='Revenue'
               stats='$95k'
@@ -56,7 +56,7 @@ const DashboardECommerce = async () => {
               trend='positive'
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               title='Transactions'
               stats='12.1k'
@@ -77,10 +77,10 @@ const DashboardECommerce = async () => {
           <Grid size={{ xs: 12 }}>
             <TotalSales />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <LineChartWithShadow />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <RadialBarChart />
           </Grid>
         </Grid>
@@ -90,7 +90,7 @@ const DashboardECommerce = async () => {
       </Grid>
       <Grid size={{ xs: 12, md: 6, lg: 4 }}>
         <Grid container spacing={6}>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               title='Logistics'
               stats='$44k'
@@ -101,7 +101,7 @@ const DashboardECommerce = async () => {
               trend='positive'
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               title='Reports'
               stats='268'

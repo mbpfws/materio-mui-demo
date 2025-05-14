@@ -26,13 +26,13 @@ const StepPersonalInfo = ({ handleNext, handlePrev, activeStep }: StepPersonalIn
         <Typography>Enter Your Personal Information</Typography>
       </div>
       <Grid container spacing={5}>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth label='First Name' placeholder='John' />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth label='Last Name' placeholder='Doe' />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField
             fullWidth
             type='number'
@@ -45,7 +45,7 @@ const StepPersonalInfo = ({ handleNext, handlePrev, activeStep }: StepPersonalIn
             }}
           />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth type='number' label='Pin Code' placeholder='689421' />
         </Grid>
         <Grid size={{ xs: 12 }}>
@@ -54,7 +54,7 @@ const StepPersonalInfo = ({ handleNext, handlePrev, activeStep }: StepPersonalIn
         <Grid size={{ xs: 12 }}>
           <TextField fullWidth label='Landmark' placeholder='Nr. Wall Street' />
         </Grid>
-        <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid item xs={12} sm={6}>
           <TextField fullWidth label='City' placeholder='Miami' />
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>

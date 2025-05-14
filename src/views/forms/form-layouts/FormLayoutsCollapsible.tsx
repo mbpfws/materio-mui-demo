@@ -130,7 +130,7 @@ const FormLayoutsCollapsible = () => {
         <Divider />
         <AccordionDetails className='!pbs-5'>
           <Grid container spacing={5}>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Full Name'
@@ -139,7 +139,7 @@ const FormLayoutsCollapsible = () => {
                 onChange={e => setCardData({ ...cardData, fullName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Phone No.'
@@ -159,7 +159,7 @@ const FormLayoutsCollapsible = () => {
                 onChange={e => setCardData({ ...cardData, address: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 type='number'
@@ -169,7 +169,7 @@ const FormLayoutsCollapsible = () => {
                 onChange={e => setCardData({ ...cardData, zipCode: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Landmark'
@@ -178,7 +178,7 @@ const FormLayoutsCollapsible = () => {
                 onChange={e => setCardData({ ...cardData, landmark: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='City'
@@ -187,7 +187,7 @@ const FormLayoutsCollapsible = () => {
                 onChange={e => setCardData({ ...cardData, city: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <FormControl fullWidth>
                 <InputLabel>Country</InputLabel>
                 <Select

@@ -31,10 +31,10 @@ const DashboardAnalytics = () => {
       </Grid>
       <Grid size={{ xs: 12, md: 6, lg: 4 }}>
         <Grid container spacing={6}>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <LineChart />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               title='Total Profit'
               stats='$25.6k'
@@ -45,7 +45,7 @@ const DashboardAnalytics = () => {
               trend='positive'
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <CardStatVertical
               stats='862'
               trend='negative'
@@ -56,7 +56,7 @@ const DashboardAnalytics = () => {
               avatarIcon='ri-file-word-2-line'
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <DistributedColumnChart />
           </Grid>
         </Grid>

@@ -139,10 +139,10 @@ const ProductInformation = () => {
           <Grid size={{ xs: 12 }}>
             <TextField fullWidth label='Product Name' placeholder='iPhone 14' />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <TextField fullWidth label='SKU' placeholder='FXSK123U' />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid item xs={12} sm={6}>
             <TextField fullWidth label='Barcode' placeholder='0123-4567' />
           </Grid>
         </Grid>

@@ -34,10 +34,10 @@ const Advanced = () => {
       <Grid size={{ xs: 12, md: 6, lg: 4 }}>
         <MeetingSchedule />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <TopCourses />
       </Grid>
-      <Grid size={{ xs: 12, sm: 6, lg: 4 }}>
+      <Grid item xs={12} sm={6} lg={4}>
         <UpcomingWebinar />
       </Grid>
       <Grid size={{ xs: 12, md: 6, lg: 4 }}>

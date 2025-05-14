@@ -155,7 +155,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 />
               </Grid>
             ))}
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='First Name'
@@ -166,7 +166,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 onChange={e => setAddressData({ ...addressData, firstName: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Last Name'
@@ -217,7 +217,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 onChange={e => setAddressData({ ...addressData, address2: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Landmark'
@@ -228,7 +228,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 onChange={e => setAddressData({ ...addressData, landmark: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='City'
@@ -239,7 +239,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 onChange={e => setAddressData({ ...addressData, city: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='State'
@@ -250,7 +250,7 @@ const AddEditAddress = ({ open, setOpen, data }: AddEditAddressProps) => {
                 onChange={e => setAddressData({ ...addressData, state: e.target.value })}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Zip Code'

@@ -30,7 +30,7 @@ const ChangePasswordCard = () => {
       <CardContent>
         <form>
           <Grid container spacing={6}>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Current Password'
@@ -55,7 +55,7 @@ const ChangePasswordCard = () => {
             </Grid>
           </Grid>
           <Grid container className='mbs-5' spacing={5}>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='New Password'
@@ -78,7 +78,7 @@ const ChangePasswordCard = () => {
                 }}
               />
             </Grid>
-            <Grid size={{ xs: 12, sm: 6 }}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label='Confirm New Password'
